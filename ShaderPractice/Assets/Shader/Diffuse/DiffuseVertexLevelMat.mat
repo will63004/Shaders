@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Custom_TestDiffuse
-  m_Shader: {fileID: 4800000, guid: f583b94c8c1fc8c4e9b1eafd859bcbf6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DiffuseVertexLevelMat
+  m_Shader: {fileID: 4800000, guid: 7d7eb159258d4ec49bc464d7d573c556, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
