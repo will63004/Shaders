@@ -61,6 +61,9 @@ Shader "Custom/AlphaTest"
 
                 //Alpha test
                 clip(texColor.a - _Cutoff);
+                // Equal to
+                // if((texColor.a - _Cutoff) < 0.0)
+                // discard;
 
                 fixed3 albedo = texColor.rgb * _Color.rgb;
 
